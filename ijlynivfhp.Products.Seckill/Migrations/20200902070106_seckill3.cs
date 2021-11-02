@@ -1,6 +1,6 @@
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ijlynivfhp.WEBService.SeckillServices.Migrations
+namespace ijlynivfhp.Projects.SeckillServices.Migrations
 {
     public partial class seckill3 : Migration
     {

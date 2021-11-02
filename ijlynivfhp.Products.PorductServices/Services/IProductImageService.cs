@@ -1,7 +1,7 @@
-using ijlynivfhp.WEBService.ProductServices.Models;
+﻿using ijlynivfhp.Projects.ProductServices.Models;
 using System.Collections.Generic;
 
-namespace ijlynivfhp.WEBService.ProductImageServices.Services
+namespace ijlynivfhp.Projects.ProductImageServices.Services
 {
     /// <summary>
     /// 商品图片服务接口

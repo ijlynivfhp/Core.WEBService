@@ -1,6 +1,6 @@
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace ijlynivfhp.WEBService.ProductServices.Models
+namespace ijlynivfhp.Projects.ProductServices.Models
 {
     /// <summary>
     /// 商品图片

@@ -1,7 +1,7 @@
-using ijlynivfhp.WEBService.PaymentServices.Models;
+﻿using ijlynivfhp.Projects.PaymentServices.Models;
 using System.Collections.Generic;
 
-namespace ijlynivfhp.WEBService.PaymentServices.Services
+namespace ijlynivfhp.Projects.PaymentServices.Services
 {
     /// <summary>
     /// 订单服务接口

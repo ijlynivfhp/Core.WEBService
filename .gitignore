@@ -27,3 +27,4 @@ appsettings*.json
 /UFX.SCM.OpenApi/.config
 *.pubxml
 *.user
+/UFX.SCM.WebUI/Areas/Admin/Controllers/AccountsReceivableController.cs

@@ -1,7 +1,7 @@
-using System;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace ijlynivfhp.WEBService.PaymentServices.Models
+namespace ijlynivfhp.Projects.PaymentServices.Models
 {
     /// <summary>
     /// 支付模型

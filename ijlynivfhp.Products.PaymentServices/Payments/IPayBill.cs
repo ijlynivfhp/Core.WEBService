@@ -1,6 +1,6 @@
-using System;
+﻿using System;
 
-namespace ijlynivfhp.WEBService.PaymentServices.Payments
+namespace ijlynivfhp.Projects.PaymentServices.Payments
 {
     /// <summary>
     /// 支付账单接口

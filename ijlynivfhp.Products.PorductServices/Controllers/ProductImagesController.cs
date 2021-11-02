@@ -1,11 +1,11 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ijlynivfhp.WEBService.ProductImageServices.Services;
-using ijlynivfhp.WEBService.ProductServices.Models;
+using ijlynivfhp.Projects.ProductImageServices.Services;
+using ijlynivfhp.Projects.ProductServices.Models;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ijlynivfhp.WEBService.ProductServices.Controllers
+namespace ijlynivfhp.Projects.ProductServices.Controllers
 {
     /// <summary>
     /// 商品图片服务控制器

@@ -1,7 +1,7 @@
-using ijlynivfhp.WEBService.SeckillServices.Models;
+﻿using ijlynivfhp.Projects.SeckillServices.Models;
 using System.Collections.Generic;
 
-namespace ijlynivfhp.WEBService.SeckillServices.Repositories
+namespace ijlynivfhp.Projects.SeckillServices.Repositories
 {
     /// <summary>
     /// 秒杀时间仓储接口

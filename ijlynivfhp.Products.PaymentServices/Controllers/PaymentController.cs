@@ -1,11 +1,11 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ijlynivfhp.WEBService.PaymentServices.Models;
-using ijlynivfhp.WEBService.PaymentServices.Services;
+using ijlynivfhp.Projects.PaymentServices.Models;
+using ijlynivfhp.Projects.PaymentServices.Services;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ijlynivfhp.WEBService.PaymentServices.Controllers
+namespace ijlynivfhp.Projects.PaymentServices.Controllers
 {
     /// <summary>
     /// 支付服务控制器

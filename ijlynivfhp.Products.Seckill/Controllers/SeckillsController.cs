@@ -1,16 +1,16 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ijlynivfhp.WEBService.Commons.AutoMappers;
-using ijlynivfhp.WEBService.Commons.Exceptions;
-using ijlynivfhp.WEBService.SeckillServices.Dtos;
-using ijlynivfhp.WEBService.SeckillServices.Models;
-using ijlynivfhp.WEBService.SeckillServices.Services;
-using ijlynivfhp.WEBService.SeckillServices.Vos;
+using ijlynivfhp.Projects.Commons.AutoMappers;
+using ijlynivfhp.Projects.Commons.Exceptions;
+using ijlynivfhp.Projects.SeckillServices.Dtos;
+using ijlynivfhp.Projects.SeckillServices.Models;
+using ijlynivfhp.Projects.SeckillServices.Services;
+using ijlynivfhp.Projects.SeckillServices.Vos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ijlynivfhp.WEBService.SeckillServices.Controllers
+namespace ijlynivfhp.Projects.SeckillServices.Controllers
 {
     /// <summary>
     /// 秒杀服务控制器

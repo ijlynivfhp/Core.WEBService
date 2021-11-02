@@ -1,10 +1,10 @@
-using ijlynivfhp.WEBService.SeckillServices.Context;
-using ijlynivfhp.WEBService.SeckillServices.Models;
-using ijlynivfhp.WEBService.SeckillServices.Repositories;
+﻿using ijlynivfhp.Projects.SeckillServices.Context;
+using ijlynivfhp.Projects.SeckillServices.Models;
+using ijlynivfhp.Projects.SeckillServices.Repositories;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace RuanMou.MicroService.SeckillService.Repositories
+namespace ijlynivfhp.MicroService.SeckillService.Repositories
 {
     /// <summary>
     /// 秒杀仓储实现

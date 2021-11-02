@@ -1,6 +1,6 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace RuanMou.MicroService.TeamService.Controllers
+namespace ijlynivfhp.MicroService.TeamService.Controllers
 {
     [Route("HealthCheck")]
     [ApiController]

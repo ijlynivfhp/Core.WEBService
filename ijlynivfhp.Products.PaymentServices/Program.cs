@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using ijlynivfhp.WEBService.PaymentServices;
+using ijlynivfhp.Projects.PaymentServices;
 
 namespace ijlynivfhp.Products.PaymentServices
 {

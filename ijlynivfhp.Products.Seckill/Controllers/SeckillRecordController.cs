@@ -1,11 +1,11 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ijlynivfhp.WEBService.SeckillRecordServices.Services;
-using ijlynivfhp.WEBService.SeckillServices.Models;
+using ijlynivfhp.Projects.SeckillRecordServices.Services;
+using ijlynivfhp.Projects.SeckillServices.Models;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ijlynivfhp.WEBService.SeckillRecordServices.Controllers
+namespace ijlynivfhp.Projects.SeckillRecordServices.Controllers
 {
     /// <summary>
     /// 秒杀记录服务控制器

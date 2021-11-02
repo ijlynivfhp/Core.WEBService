@@ -1,7 +1,7 @@
-using ijlynivfhp.WEBService.SeckillServices.Models;
+﻿using ijlynivfhp.Projects.SeckillServices.Models;
 using System.Collections.Generic;
 
-namespace ijlynivfhp.WEBService.SeckillRecordServices.Services
+namespace ijlynivfhp.Projects.SeckillRecordServices.Services
 {
     /// <summary>
     /// 秒杀记录服务接口

@@ -1,8 +1,8 @@
-using ijlynivfhp.WEBService.SeckillServices.Models;
-using ijlynivfhp.WEBService.SeckillServices.Repositories;
+﻿using ijlynivfhp.Projects.SeckillServices.Models;
+using ijlynivfhp.Projects.SeckillServices.Repositories;
 using System.Collections.Generic;
 
-namespace ijlynivfhp.WEBService.SeckillRecordServices.Services
+namespace ijlynivfhp.Projects.SeckillRecordServices.Services
 {
     /// <summary>
     /// 秒杀记录服务实现

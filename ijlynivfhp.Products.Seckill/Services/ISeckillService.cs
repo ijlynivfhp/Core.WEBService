@@ -1,7 +1,7 @@
-using ijlynivfhp.WEBService.SeckillServices.Models;
+﻿using ijlynivfhp.Projects.SeckillServices.Models;
 using System.Collections.Generic;
 
-namespace ijlynivfhp.WEBService.SeckillServices.Services
+namespace ijlynivfhp.Projects.SeckillServices.Services
 {
     /// <summary>
     /// 商品服务接口

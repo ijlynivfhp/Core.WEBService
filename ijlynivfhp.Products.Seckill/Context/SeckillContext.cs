@@ -1,7 +1,7 @@
-using Microsoft.EntityFrameworkCore;
-using ijlynivfhp.WEBService.SeckillServices.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using ijlynivfhp.Projects.SeckillServices.Models;
 
-namespace ijlynivfhp.WEBService.SeckillServices.Context
+namespace ijlynivfhp.Projects.SeckillServices.Context
 {
     /// <summary>
     /// 秒杀服务上下文

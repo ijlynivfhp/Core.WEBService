@@ -1,10 +1,10 @@
-using ijlynivfhp.WEBService.SeckillServices.Context;
-using ijlynivfhp.WEBService.SeckillServices.Models;
-using ijlynivfhp.WEBService.SeckillServices.Repositories;
+﻿using ijlynivfhp.Projects.SeckillServices.Context;
+using ijlynivfhp.Projects.SeckillServices.Models;
+using ijlynivfhp.Projects.SeckillServices.Repositories;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace RuanMou.MicroService.SeckillTimeModelService.Repositories
+namespace ijlynivfhp.MicroService.SeckillTimeModelService.Repositories
 {
     /// <summary>
     /// 秒杀时间仓储实现

@@ -1,7 +1,7 @@
-using System;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace ijlynivfhp.WEBService.SeckillServices.Models
+namespace ijlynivfhp.Projects.SeckillServices.Models
 {
     /// <summary>
     /// 秒杀记录模型

@@ -1,8 +1,8 @@
-using ijlynivfhp.WEBService.ProductServices.Models;
-using ijlynivfhp.WEBService.ProductServices.Repositories;
+﻿using ijlynivfhp.Projects.ProductServices.Models;
+using ijlynivfhp.Projects.ProductServices.Repositories;
 using System.Collections.Generic;
 
-namespace ijlynivfhp.WEBService.ProductImageServices.Services
+namespace ijlynivfhp.Projects.ProductImageServices.Services
 {
     /// <summary>
     /// 商品服务实现

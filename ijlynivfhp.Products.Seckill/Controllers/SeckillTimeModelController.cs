@@ -1,12 +1,12 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ijlynivfhp.WEBService.SeckillServices.Models;
-using ijlynivfhp.WEBService.SeckillServices.Services;
-using ijlynivfhp.WEBService.SeckillTimeServices.Services;
+using ijlynivfhp.Projects.SeckillServices.Models;
+using ijlynivfhp.Projects.SeckillServices.Services;
+using ijlynivfhp.Projects.SeckillTimeServices.Services;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ijlynivfhp.WEBService.SeckillTimeModelServices.Controllers
+namespace ijlynivfhp.Projects.SeckillTimeModelServices.Controllers
 {
     /// <summary>
     /// 秒杀时间服务控制器

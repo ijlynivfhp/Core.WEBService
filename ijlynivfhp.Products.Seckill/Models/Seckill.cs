@@ -1,6 +1,6 @@
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace ijlynivfhp.WEBService.SeckillServices.Models
+namespace ijlynivfhp.Projects.SeckillServices.Models
 {
     /// <summary>
     /// 秒杀模型(秒杀商品)

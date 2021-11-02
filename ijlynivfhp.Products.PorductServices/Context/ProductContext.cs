@@ -1,7 +1,7 @@
-using Microsoft.EntityFrameworkCore;
-using ijlynivfhp.WEBService.ProductServices.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using ijlynivfhp.Projects.ProductServices.Models;
 
-namespace ijlynivfhp.WEBService.ProductServices.Context
+namespace ijlynivfhp.Projects.ProductServices.Context
 {
     /// <summary>
     /// 商品服务上下文

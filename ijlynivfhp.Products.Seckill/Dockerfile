@@ -7,18 +7,18 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["ijlynivfhp.Products.Seckill/ijlynivfhp.WEBService.SeckillServices.csproj", "ijlynivfhp.Products.Seckill/"]
-COPY ["ijlynivfhp.WEBService.Cores/ijlynivfhp.WEBService.Cores.csproj", "ijlynivfhp.WEBService.Cores/"]
-COPY ["ijlynivfhp.WEBService.Commons/ijlynivfhp.WEBService.Commons.csproj", "ijlynivfhp.WEBService.Commons/"]
-RUN dotnet restore "ijlynivfhp.Products.Seckill/ijlynivfhp.WEBService.SeckillServices.csproj"
+COPY ["ijlynivfhp.Products.Seckill/ijlynivfhp.Projects.SeckillServices.csproj", "ijlynivfhp.Products.Seckill/"]
+COPY ["ijlynivfhp.Projects.Cores/ijlynivfhp.Projects.Cores.csproj", "ijlynivfhp.Projects.Cores/"]
+COPY ["ijlynivfhp.Projects.Commons/ijlynivfhp.Projects.Commons.csproj", "ijlynivfhp.Projects.Commons/"]
+RUN dotnet restore "ijlynivfhp.Products.Seckill/ijlynivfhp.Projects.SeckillServices.csproj"
 COPY . .
 WORKDIR "/src/ijlynivfhp.Products.Seckill"
-RUN dotnet build "ijlynivfhp.WEBService.SeckillServices.csproj" -c Release -o /app/build
+RUN dotnet build "ijlynivfhp.Projects.SeckillServices.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "ijlynivfhp.WEBService.SeckillServices.csproj" -c Release -o /app/publish
+RUN dotnet publish "ijlynivfhp.Projects.SeckillServices.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "ijlynivfhp.WEBService.SeckillServices.dll"]
+ENTRYPOINT ["dotnet", "ijlynivfhp.Projects.SeckillServices.dll"]

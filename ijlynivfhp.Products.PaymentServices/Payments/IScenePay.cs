@@ -1,6 +1,6 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace ijlynivfhp.WEBService.PaymentServices.Payments
+namespace ijlynivfhp.Projects.PaymentServices.Payments
 {
     /// <summary>
     /// 场景订单支付接口

@@ -1,7 +1,7 @@
-using ijlynivfhp.WEBService.PaymentServices.Models;
+﻿using ijlynivfhp.Projects.PaymentServices.Models;
 using System.Collections.Generic;
 
-namespace ijlynivfhp.WEBService.PaymentServices.Repositories
+namespace ijlynivfhp.Projects.PaymentServices.Repositories
 {
     /// <summary>
     /// 支付仓储接口

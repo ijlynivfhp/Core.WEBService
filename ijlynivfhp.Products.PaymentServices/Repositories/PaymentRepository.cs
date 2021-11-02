@@ -1,10 +1,10 @@
-using ijlynivfhp.WEBService.PaymentServices.Context;
-using ijlynivfhp.WEBService.PaymentServices.Models;
-using ijlynivfhp.WEBService.PaymentServices.Repositories;
+﻿using ijlynivfhp.Projects.PaymentServices.Context;
+using ijlynivfhp.Projects.PaymentServices.Models;
+using ijlynivfhp.Projects.PaymentServices.Repositories;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace RuanMou.MicroService.PaymentService.Repositories
+namespace ijlynivfhp.MicroService.PaymentService.Repositories
 {
     /// <summary>
     /// 支付仓储实现

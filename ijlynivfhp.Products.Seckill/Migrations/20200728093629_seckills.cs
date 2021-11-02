@@ -1,8 +1,8 @@
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 using MySql.Data.EntityFrameworkCore.Metadata;
 using System;
 
-namespace ijlynivfhp.WEBService.SeckillServices.Migrations
+namespace ijlynivfhp.Projects.SeckillServices.Migrations
 {
     public partial class seckills : Migration
     {

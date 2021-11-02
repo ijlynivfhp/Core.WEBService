@@ -1,7 +1,7 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 
-namespace ijlynivfhp.WEBService.PaymentServices.Payments.wx
+namespace ijlynivfhp.Projects.PaymentServices.Payments.wx
 {
     /// <summary>
     /// 微信支付

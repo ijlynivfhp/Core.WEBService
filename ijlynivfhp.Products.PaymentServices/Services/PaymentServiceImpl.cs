@@ -1,8 +1,8 @@
-using ijlynivfhp.WEBService.PaymentServices.Models;
-using ijlynivfhp.WEBService.PaymentServices.Repositories;
+﻿using ijlynivfhp.Projects.PaymentServices.Models;
+using ijlynivfhp.Projects.PaymentServices.Repositories;
 using System.Collections.Generic;
 
-namespace ijlynivfhp.WEBService.PaymentServices.Services
+namespace ijlynivfhp.Projects.PaymentServices.Services
 {
     /// <summary>
     /// 支付服务实现

@@ -1,7 +1,7 @@
-using Microsoft.EntityFrameworkCore;
-using ijlynivfhp.WEBService.PaymentServices.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using ijlynivfhp.Projects.PaymentServices.Models;
 
-namespace ijlynivfhp.WEBService.PaymentServices.Context
+namespace ijlynivfhp.Projects.PaymentServices.Context
 {
     /// <summary>
     /// 支付服务上下文

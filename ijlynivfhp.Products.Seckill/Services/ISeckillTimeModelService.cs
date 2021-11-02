@@ -1,7 +1,7 @@
-using ijlynivfhp.WEBService.SeckillServices.Models;
+﻿using ijlynivfhp.Projects.SeckillServices.Models;
 using System.Collections.Generic;
 
-namespace ijlynivfhp.WEBService.SeckillTimeServices.Services
+namespace ijlynivfhp.Projects.SeckillTimeServices.Services
 {
     /// <summary>
     /// 秒杀时间服务接口

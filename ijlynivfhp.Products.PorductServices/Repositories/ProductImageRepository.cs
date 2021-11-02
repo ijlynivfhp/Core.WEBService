@@ -1,10 +1,10 @@
-using ijlynivfhp.WEBService.ProductServices.Context;
-using ijlynivfhp.WEBService.ProductServices.Models;
-using ijlynivfhp.WEBService.ProductServices.Repositories;
+﻿using ijlynivfhp.Projects.ProductServices.Context;
+using ijlynivfhp.Projects.ProductServices.Models;
+using ijlynivfhp.Projects.ProductServices.Repositories;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace RuanMou.MicroService.ProductService.Repositories
+namespace ijlynivfhp.MicroService.ProductService.Repositories
 {
     /// <summary>
     /// 商品仓储实现

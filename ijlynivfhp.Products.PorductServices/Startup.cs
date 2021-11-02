@@ -6,14 +6,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
-using RuanMou.MicroService.ProductService.Repositories;
-using ijlynivfhp.WEBService.Commons.Exceptions.Handlers;
-using ijlynivfhp.WEBService.Commons.Filter;
-using ijlynivfhp.WEBService.Cores.Registry.Extentions;
-using ijlynivfhp.WEBService.ProductImageServices.Services;
-using ijlynivfhp.WEBService.ProductServices.Context;
-using ijlynivfhp.WEBService.ProductServices.Repositories;
-using ijlynivfhp.WEBService.ProductServices.Services;
+using ijlynivfhp.MicroService.ProductService.Repositories;
+using ijlynivfhp.Projects.Commons.Exceptions.Handlers;
+using ijlynivfhp.Projects.Commons.Filter;
+using ijlynivfhp.Projects.Cores.Registry.Extentions;
+using ijlynivfhp.Projects.ProductImageServices.Services;
+using ijlynivfhp.Projects.ProductServices.Context;
+using ijlynivfhp.Projects.ProductServices.Repositories;
+using ijlynivfhp.Projects.ProductServices.Services;
 using System;
 
 namespace ijlynivfhp.Products.PorductServices

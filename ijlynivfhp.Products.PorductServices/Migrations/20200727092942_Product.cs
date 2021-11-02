@@ -1,7 +1,7 @@
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 using MySql.Data.EntityFrameworkCore.Metadata;
 
-namespace ijlynivfhp.WEBService.ProductServices.Migrations
+namespace ijlynivfhp.Projects.ProductServices.Migrations
 {
     public partial class Product : Migration
     {

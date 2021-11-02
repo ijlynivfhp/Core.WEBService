@@ -1,13 +1,13 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ijlynivfhp.WEBService.Commons.Exceptions;
-using ijlynivfhp.WEBService.ProductServices.Models;
-using ijlynivfhp.WEBService.ProductServices.Services;
-using ijlynivfhp.WEBService.ProductServices.Vos;
+using ijlynivfhp.Projects.Commons.Exceptions;
+using ijlynivfhp.Projects.ProductServices.Models;
+using ijlynivfhp.Projects.ProductServices.Services;
+using ijlynivfhp.Projects.ProductServices.Vos;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ijlynivfhp.WEBService.ProductServices.Controllers
+namespace ijlynivfhp.Projects.ProductServices.Controllers
 {
     /// <summary>
     /// 商品服务控制器

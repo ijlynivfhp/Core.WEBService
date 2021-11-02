@@ -6,22 +6,22 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
-using RuanMou.MicroService.SeckillRecordService.Repositories;
-using RuanMou.MicroService.SeckillService.Repositories;
-using RuanMou.MicroService.SeckillTimeModelService.Repositories;
-using ijlynivfhp.WEBService.Commons.Exceptions.Handlers;
-using ijlynivfhp.WEBService.Commons.Filter;
-using ijlynivfhp.WEBService.Commons.Middlewares;
-using ijlynivfhp.WEBService.Commons.Users;
-using ijlynivfhp.WEBService.Cores.Registry.Extentions;
-using ijlynivfhp.WEBService.SeckillRecordServices.Services;
-using ijlynivfhp.WEBService.SeckillServices.Context;
-using ijlynivfhp.WEBService.SeckillServices.Repositories;
-using ijlynivfhp.WEBService.SeckillServices.Services;
-using ijlynivfhp.WEBService.SeckillTimeServices.Services;
+using ijlynivfhp.MicroService.SeckillRecordService.Repositories;
+using ijlynivfhp.MicroService.SeckillService.Repositories;
+using ijlynivfhp.MicroService.SeckillTimeModelService.Repositories;
+using ijlynivfhp.Projects.Commons.Exceptions.Handlers;
+using ijlynivfhp.Projects.Commons.Filter;
+using ijlynivfhp.Projects.Commons.Middlewares;
+using ijlynivfhp.Projects.Commons.Users;
+using ijlynivfhp.Projects.Cores.Registry.Extentions;
+using ijlynivfhp.Projects.SeckillRecordServices.Services;
+using ijlynivfhp.Projects.SeckillServices.Context;
+using ijlynivfhp.Projects.SeckillServices.Repositories;
+using ijlynivfhp.Projects.SeckillServices.Services;
+using ijlynivfhp.Projects.SeckillTimeServices.Services;
 using System;
 
-namespace RuanMou.Seckills.PorductServices
+namespace ijlynivfhp.Seckills.PorductServices
 {
     public class Startup
     {

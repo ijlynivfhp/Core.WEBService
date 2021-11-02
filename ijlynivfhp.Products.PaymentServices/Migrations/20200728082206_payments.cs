@@ -1,8 +1,8 @@
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 using MySql.Data.EntityFrameworkCore.Metadata;
 using System;
 
-namespace ijlynivfhp.WEBService.PaymentServices.Migrations
+namespace ijlynivfhp.Projects.PaymentServices.Migrations
 {
     public partial class payments : Migration
     {

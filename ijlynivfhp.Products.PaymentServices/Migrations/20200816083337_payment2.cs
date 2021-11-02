@@ -1,6 +1,6 @@
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ijlynivfhp.WEBService.PaymentServices.Migrations
+namespace ijlynivfhp.Projects.PaymentServices.Migrations
 {
     public partial class payment2 : Migration
     {

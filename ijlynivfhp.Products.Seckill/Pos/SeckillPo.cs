@@ -1,4 +1,4 @@
-namespace ijlynivfhp.WEBService.SeckillServices.Vos
+﻿namespace ijlynivfhp.Projects.SeckillServices.Vos
 {
     /// <summary>
     /// 商品值对象，主要接受客户端传过来的参数

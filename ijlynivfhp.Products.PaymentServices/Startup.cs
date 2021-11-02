@@ -6,16 +6,16 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
-using RuanMou.MicroService.PaymentService.Repositories;
-using ijlynivfhp.WEBService.Commons.Exceptions.Handlers;
-using ijlynivfhp.WEBService.Commons.Filter;
-using ijlynivfhp.WEBService.Cores.Registry.Extentions;
-using ijlynivfhp.WEBService.PaymentServices.Context;
-using ijlynivfhp.WEBService.PaymentServices.Repositories;
-using ijlynivfhp.WEBService.PaymentServices.Services;
+using ijlynivfhp.MicroService.PaymentService.Repositories;
+using ijlynivfhp.Projects.Commons.Exceptions.Handlers;
+using ijlynivfhp.Projects.Commons.Filter;
+using ijlynivfhp.Projects.Cores.Registry.Extentions;
+using ijlynivfhp.Projects.PaymentServices.Context;
+using ijlynivfhp.Projects.PaymentServices.Repositories;
+using ijlynivfhp.Projects.PaymentServices.Services;
 using System;
 
-namespace ijlynivfhp.WEBService.PaymentServices
+namespace ijlynivfhp.Projects.PaymentServices
 {
     public class Startup
     {
