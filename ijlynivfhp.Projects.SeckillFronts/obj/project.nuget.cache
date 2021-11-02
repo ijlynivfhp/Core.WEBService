@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5fzafraFjRQ1/759RYwgMH4PJkImoyOCtfpLXN2A9JKCe2ah9MipIlV2FfLflcZyyLRUc82w3fMZQukWAn52KA==",
+  "dgSpecHash": "cLkNq6s2huESqBf8dxPmFLrD/YcFrN7KW8Hw88qi4OLjpBO7qjBHJqJKyiQSdFdlJPv+n87xp1yJtbMilybU3A==",
   "success": true,
-  "projectFilePath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.SeckillFronts\\ijlynivfhp.Projects.SeckillFronts.csproj",
+  "projectFilePath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.SeckillFronts\\ijlynivfhp.Projects.SeckillFronts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.6\\microsoft.aspnetcore.cryptography.internal.3.1.6.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.6\\microsoft.aspnetcore.cryptography.keyderivation.3.1.6.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj": {}
+    "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj": {}
   },
   "projects": {
-    "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj": {
+    "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj",
+        "projectUniqueName": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj",
         "projectName": "ijlynivfhp.Projects.Cores",
-        "projectPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj",
+        "projectPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\obj\\",
+        "outputPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Cores\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

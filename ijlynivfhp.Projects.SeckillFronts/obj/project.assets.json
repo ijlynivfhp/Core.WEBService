@@ -8934,11 +8934,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.SeckillFronts\\ijlynivfhp.Projects.SeckillFronts.csproj",
+      "projectUniqueName": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.SeckillFronts\\ijlynivfhp.Projects.SeckillFronts.csproj",
       "projectName": "ijlynivfhp.Projects.SeckillFronts",
-      "projectPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.SeckillFronts\\ijlynivfhp.Projects.SeckillFronts.csproj",
+      "projectPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.SeckillFronts\\ijlynivfhp.Projects.SeckillFronts.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.SeckillFronts\\obj\\",
+      "outputPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.SeckillFronts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

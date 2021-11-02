@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.OrderServices\\ijlynivfhp.Projects.OrderServices.csproj": {}
+    "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.OrderServices\\ijlynivfhp.Projects.OrderServices.csproj": {}
   },
   "projects": {
-    "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj": {
+    "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj",
+        "projectUniqueName": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj",
         "projectName": "ijlynivfhp.Projects.Commons",
-        "projectPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj",
+        "projectPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Commons\\obj\\",
+        "outputPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Commons\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -122,14 +122,14 @@
         }
       }
     },
-    "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj": {
+    "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj",
+        "projectUniqueName": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj",
         "projectName": "ijlynivfhp.Projects.Cores",
-        "projectPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj",
+        "projectPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\obj\\",
+        "outputPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Cores\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -264,14 +264,14 @@
         }
       }
     },
-    "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.OrderServices\\ijlynivfhp.Projects.OrderServices.csproj": {
+    "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.OrderServices\\ijlynivfhp.Projects.OrderServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.OrderServices\\ijlynivfhp.Projects.OrderServices.csproj",
+        "projectUniqueName": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.OrderServices\\ijlynivfhp.Projects.OrderServices.csproj",
         "projectName": "ijlynivfhp.Projects.OrderServices",
-        "projectPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.OrderServices\\ijlynivfhp.Projects.OrderServices.csproj",
+        "projectPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.OrderServices\\ijlynivfhp.Projects.OrderServices.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.OrderServices\\obj\\",
+        "outputPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.OrderServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -292,11 +292,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj": {
-                "projectPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj"
+              "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj": {
+                "projectPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj"
               },
-              "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj": {
-                "projectPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj"
+              "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj": {
+                "projectPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj"
               }
             }
           }

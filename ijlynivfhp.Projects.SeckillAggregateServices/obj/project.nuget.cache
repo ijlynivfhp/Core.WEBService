@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E5yxrahk7h/xVyzuBM8/JwMqssD3C47KiXHsysEMtSA7swWOgjVKF8gGTg6CMiV86ur44rJyBy6BkuZIACGmnA==",
+  "dgSpecHash": "gI4juuDyKP/GGhQo79L+wRbD7q0U3ptjXswi82u3gGq0k9oyQ538sB1fbpVTEpbXni9ULNTMnwK0QthJ5vPnFQ==",
   "success": true,
-  "projectFilePath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.SeckillAggregateServices\\ijlynivfhp.Projects.SeckillAggregateServices.csproj",
+  "projectFilePath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.SeckillAggregateServices\\ijlynivfhp.Projects.SeckillAggregateServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\aspectcore.extensions.reflection\\1.2.0\\aspectcore.extensions.reflection.1.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",

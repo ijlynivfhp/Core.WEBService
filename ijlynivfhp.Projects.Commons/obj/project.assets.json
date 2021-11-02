@@ -8854,11 +8854,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj",
+      "projectUniqueName": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj",
       "projectName": "ijlynivfhp.Projects.Commons",
-      "projectPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj",
+      "projectPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Commons\\obj\\",
+      "outputPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Commons\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

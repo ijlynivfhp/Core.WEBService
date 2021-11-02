@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YjTZsYKJz7JBVI26C++KRE8CaYSV2NBia+1/nIpua6QCWPRyIDx80Y0ET7epSMhDXj0ShyCtTh0oBVQOHfvh6g==",
+  "dgSpecHash": "LEqb1FZKES13dqyr50+daKoMzNQkkTGrjZrMdcdJqnYojG3zYtymlwmd2qmKImXdPv2o4y50TjSFKj0nuEz+EQ==",
   "success": true,
-  "projectFilePath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Products.Seckill\\ijlynivfhp.Projects.SeckillServices.csproj",
+  "projectFilePath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Products.Seckill\\ijlynivfhp.Projects.SeckillServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

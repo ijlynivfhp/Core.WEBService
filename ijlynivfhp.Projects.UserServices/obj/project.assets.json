@@ -11938,11 +11938,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.UserServices\\ijlynivfhp.Projects.UserServices.csproj",
+      "projectUniqueName": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.UserServices\\ijlynivfhp.Projects.UserServices.csproj",
       "projectName": "ijlynivfhp.Projects.UserServices",
-      "projectPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.UserServices\\ijlynivfhp.Projects.UserServices.csproj",
+      "projectPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.UserServices\\ijlynivfhp.Projects.UserServices.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.UserServices\\obj\\",
+      "outputPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.UserServices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11963,11 +11963,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj": {
-              "projectPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj"
+            "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj": {
+              "projectPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj"
             },
-            "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj": {
-              "projectPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj"
+            "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj": {
+              "projectPath": "E:\\Project\\.NET\\Core.WEBService\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj"
             }
           }
         }
