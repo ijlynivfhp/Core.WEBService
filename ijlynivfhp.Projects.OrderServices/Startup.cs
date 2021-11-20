@@ -52,13 +52,13 @@ namespace ijlynivfhp.Projects.OrderServices
                 options.ServiceId = Guid.NewGuid().ToString();
                 options.ServiceName = "OrderServices";
                 // options.ServiceAddress = "http://172.18.0.12:80";// docker单机配置
-                options.ServiceAddress = "http://10.96.0.8:5002";// k8s集群service配置
+                options.ServiceAddress = "http://localhost:5002";// k8s集群service配置
                 // options.ServiceAddress = "https://localhost:5002";
 
                 options.HealthCheckAddress = "/HealthCheck";
 
                 // options.RegistryAddress = "http://172.18.0.2:8500";//docker单机配置
-                options.RegistryAddress = "http://10.96.0.2:8500";//k8s集群service配置
+                options.RegistryAddress = "http://localhost:8500";//k8s集群service配置
                 // options.RegistryAddress = "http://localhost:8500";
 
             });
@@ -88,10 +88,10 @@ namespace ijlynivfhp.Projects.OrderServices
                 {
                      rb.HostName = "localhost"; // 本地主机
                     // rb.HostName = "172.18.0.3";// docker主机
-                    rb.HostName = "10.96.0.3";// docker集群service
-                    rb.UserName = "guest";
-                    rb.Password = "guest";
-                    rb.Port = 5672;
+                    rb.HostName = "localhost";// docker集群service
+                    rb.UserName = "admin";
+                    rb.Password = "admin";
+                    rb.Port = 10002;
                     rb.VirtualHost = "/";
                 });
                 /*x.UseKafka(kf =>

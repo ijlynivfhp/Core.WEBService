@@ -43,7 +43,7 @@ namespace ijlynivfhp.Projects.SeckillAggregateServices
                     mo.serviceDiscoveryOptions = sdo =>
                     // { sdo.DiscoveryAddress = "http://172.18.0.2:8500"; };
                     //{ sdo.DiscoveryAddress = "http://localhost:8500"; };
-                    { sdo.DiscoveryAddress = "http://10.96.0.2:8500"; };// k8s注册中心
+                    { sdo.DiscoveryAddress = "http://localhost:8500"; };// k8s注册中心
                 };
             });
 
@@ -93,7 +93,7 @@ namespace ijlynivfhp.Projects.SeckillAggregateServices
             // 6.1 使用redis分布式缓存
            // services.AddDistributedRedisCache("127.0.0.1:6379, password =, defaultDatabase = 2, poolsize = 50, connectTimeout = 5000, syncTimeout = 10000, prefix = seckill_stock_:");
             //services.AddDistributedRedisCache("172.18.0.19:6379, password =, defaultDatabase = 2, poolsize = 50, connectTimeout = 5000, syncTimeout = 10000, prefix = seckill_stock_");
-            services.AddDistributedRedisCache("10.96.0.6:6379, password =, defaultDatabase = 2, poolsize = 50, connectTimeout = 5000, syncTimeout = 10000, prefix = seckill_stock_");// k8s redis
+            services.AddDistributedRedisCache("127.0.0.1:6379, password =123456, defaultDatabase = 2, poolsize = 50, connectTimeout = 5000, syncTimeout = 10000, prefix = seckill_stock_");// k8s redis
 
             // 7、使用秒杀库存缓存
             // services.AddSeckillStockCache();
@@ -114,10 +114,10 @@ namespace ijlynivfhp.Projects.SeckillAggregateServices
                 {
                     // rb.HostName = "localhost"; // 本地主机
                     //rb.HostName = "172.18.0.3";// 远程主机
-                    rb.HostName = "10.96.0.3";// K8s集群service
-                    rb.UserName = "guest";
-                    rb.Password = "guest";
-                    rb.Port = 5672;
+                    rb.HostName = "localhost";// docker集群service
+                    rb.UserName = "admin";
+                    rb.Password = "admin";
+                    rb.Port = 10002;
                     rb.VirtualHost = "/";
                 });
 

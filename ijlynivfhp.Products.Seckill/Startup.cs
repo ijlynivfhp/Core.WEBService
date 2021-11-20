@@ -61,7 +61,7 @@ namespace ijlynivfhp.Seckills.PorductServices
                 options.HealthCheckAddress = "/HealthCheck";
 
                 // options.RegistryAddress = "http://172.18.0.2:8500";
-                options.RegistryAddress = "http://10.96.0.2:8500";//k8s集群service配置
+                options.RegistryAddress = "http://localhost:8500";//k8s集群service配置
                 //options.RegistryAddress = "http://localhost:8500";
             });
 
