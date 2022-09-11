@@ -25,7 +25,7 @@ namespace ijlynivfhp.Projects.Cores.Proxy
         /// 客户端代理执行
         /// </summary>
         /// <param name="invocation"></param>
-        public void Intercept(IInvocation invocation)
+        public void Intercept(IInvocation invocation)  
         {
             // 1、获取接口方法
             MethodInfo methodInfo = invocation.Method;
