@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Products.PaymentServices\\ijlynivfhp.Projects.PaymentServices.csproj": {}
+    "E:\\Project\\WEBService\\ijlynivfhp.Products.PaymentServices\\ijlynivfhp.Projects.PaymentServices.csproj": {}
   },
   "projects": {
-    "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Products.PaymentServices\\ijlynivfhp.Projects.PaymentServices.csproj": {
+    "E:\\Project\\WEBService\\ijlynivfhp.Products.PaymentServices\\ijlynivfhp.Projects.PaymentServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Products.PaymentServices\\ijlynivfhp.Projects.PaymentServices.csproj",
+        "projectUniqueName": "E:\\Project\\WEBService\\ijlynivfhp.Products.PaymentServices\\ijlynivfhp.Projects.PaymentServices.csproj",
         "projectName": "ijlynivfhp.Projects.PaymentServices",
-        "projectPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Products.PaymentServices\\ijlynivfhp.Projects.PaymentServices.csproj",
+        "projectPath": "E:\\Project\\WEBService\\ijlynivfhp.Products.PaymentServices\\ijlynivfhp.Projects.PaymentServices.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Products.PaymentServices\\obj\\",
+        "outputPath": "E:\\Project\\WEBService\\ijlynivfhp.Products.PaymentServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://121.196.106.7:7737/repository/nuget-group/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj": {
-                "projectPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj"
+              "E:\\Project\\WEBService\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj": {
+                "projectPath": "E:\\Project\\WEBService\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj"
               },
-              "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj": {
-                "projectPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj"
+              "E:\\Project\\WEBService\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj": {
+                "projectPath": "E:\\Project\\WEBService\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj"
               }
             }
           }
@@ -72,12 +72,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.12, 3.1.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -86,24 +80,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.3.21202.5\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj": {
+    "E:\\Project\\WEBService\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj",
+        "projectUniqueName": "E:\\Project\\WEBService\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj",
         "projectName": "ijlynivfhp.Projects.Commons",
-        "projectPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj",
+        "projectPath": "E:\\Project\\WEBService\\ijlynivfhp.Projects.Commons\\ijlynivfhp.Projects.Commons.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Commons\\obj\\",
+        "outputPath": "E:\\Project\\WEBService\\ijlynivfhp.Projects.Commons\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -111,7 +106,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://121.196.106.7:7737/repository/nuget-group/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -193,35 +187,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.12, 3.1.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.3.21202.5\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj": {
+    "E:\\Project\\WEBService\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj",
+        "projectUniqueName": "E:\\Project\\WEBService\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj",
         "projectName": "ijlynivfhp.Projects.Cores",
-        "projectPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj",
+        "projectPath": "E:\\Project\\WEBService\\ijlynivfhp.Projects.Cores\\ijlynivfhp.Projects.Cores.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\.NET\\ijlynivfhp\\ijlynivfhp.Projects.Cores\\obj\\",
+        "outputPath": "E:\\Project\\WEBService\\ijlynivfhp.Projects.Cores\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -229,7 +218,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://121.196.106.7:7737/repository/nuget-group/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -335,18 +323,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.12, 3.1.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.3.21202.5\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
