@@ -7,7 +7,7 @@ namespace ijlynivfhp.Projects.SeckillAggregateServices.Services
     /// <summary>
     /// 订单微服务客户端
     /// </summary>
-    [MicroClient("http", "OrderServices")]
+    [MicroClient("http", "OrderServices")]   
     public interface IOrderClient
     {
         /// <summary>
