@@ -46,13 +46,13 @@ namespace ijlynivfhp.Projects.PaymentServices
                 options.ServiceId = Guid.NewGuid().ToString();
                 options.ServiceName = "PaymentServices";
                 // options.ServiceAddress = "http://172.18.0.17:80";
-                options.ServiceAddress = "http://10.96.0.9:5003";// k8s集群service配置
-               // options.ServiceAddress = "https://localhost:5003";
+                //options.ServiceAddress = "http://10.96.0.9:5003";// k8s集群service配置
+                options.ServiceAddress = "https://localhost:5003";
                 options.HealthCheckAddress = "/HealthCheck";
 
                 // options.RegistryAddress = "http://172.18.0.2:8500";
-                options.RegistryAddress = "http://10.96.0.2:8500";//k8s集群service配置
-               // options.RegistryAddress = "http://localhost:8500";
+                //options.RegistryAddress = "http://10.96.0.2:8500";//k8s集群service配置
+                options.RegistryAddress = "http://localhost:8500";
             });
             // 6、添加控制器
             services.AddControllers(options =>

@@ -8,7 +8,7 @@ namespace ijlynivfhp.Projects.SeckillAggregateServices.Services
     /// <summary>
     /// 秒杀记录客户端
     /// </summary>
-    [MicroClient("http", "SeckillServices")]
+    [MicroClient("https", "SeckillServices")]
     public interface ISeckillTimeClient
     {
         /// <summary>

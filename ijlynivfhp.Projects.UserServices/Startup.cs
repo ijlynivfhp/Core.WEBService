@@ -54,13 +54,13 @@ namespace ijlynivfhp.Projects.UserServices
                 options.ServiceId = Guid.NewGuid().ToString();
                 options.ServiceName = "UserServices";
                 // options.ServiceAddress = "http://172.18.0.13:80";
-                options.ServiceAddress = "http://10.96.0.11:5005";//k8s集群service配置
-                //options.ServiceAddress = "https://localhost:5005";
+                //options.ServiceAddress = "http://10.96.0.11:5005";//k8s集群service配置
+                options.ServiceAddress = "https://localhost:5005";
                 options.HealthCheckAddress = "/HealthCheck";
 
                 // options.RegistryAddress = "http://172.18.0.2:8500";
-                options.RegistryAddress = "http://10.96.0.2:8500";//k8s集群service配置
-                //options.RegistryAddress = "http://localhost:8500";
+                //options.RegistryAddress = "http://10.96.0.2:8500";//k8s集群service配置
+                options.RegistryAddress = "http://localhost:8500";
             });
            // var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
             // 5、添加IdentityServer4
@@ -110,7 +110,7 @@ namespace ijlynivfhp.Projects.UserServices
                 endpoints.MapControllers();
             });
 
-            InitializeDatabase(app);
+            //InitializeDatabase(app);
         }
 
 

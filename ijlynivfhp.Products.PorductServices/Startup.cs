@@ -49,13 +49,13 @@ namespace ijlynivfhp.Products.PorductServices
                 options.ServiceId = Guid.NewGuid().ToString();
                 options.ServiceName = "ProductServices";
                 //options.ServiceAddress = "http://172.18.0.11:80";
-                options.ServiceAddress = "http://10.96.0.7:5001"; //k8s集群service配置
-                //options.ServiceAddress = "https://localhost:5001";
+                //options.ServiceAddress = "http://10.96.0.7:5001"; //k8s集群service配置
+                options.ServiceAddress = "https://localhost:5001";
                 options.HealthCheckAddress = "/HealthCheck";
 
                 // options.RegistryAddress = "http://172.18.0.2:8500";
-                options.RegistryAddress = "http://10.96.0.2:8500";//k8s集群service配置
-               // options.RegistryAddress = "http://localhost:8500";
+                //options.RegistryAddress = "http://10.96.0.2:8500";//k8s集群service配置
+                options.RegistryAddress = "http://localhost:8500";
             });
 
             // 6、添加控制器

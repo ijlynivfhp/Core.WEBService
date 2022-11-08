@@ -13,7 +13,7 @@ namespace ijlynivfhp.Projects.SeckillAggregateServices.Controllers
     /// </summary>
     [Route("api/SeckillDetail")]
     [ApiController]
-    [Authorize] // 需要进行身份认证
+    //[Authorize] // 需要进行身份认证
     public class SeckillDetailController : ControllerBase
     {
         private readonly ISeckillsClient seckillsClient;
@@ -30,7 +30,7 @@ namespace ijlynivfhp.Projects.SeckillAggregateServices.Controllers
         /// </summary>
         /// <param name="id">秒杀编号</param>
         /// <returns></returns>
-        [HttpGet("{Id}")]
+        [HttpGet("{id}")]
         public SeckillDto GetSeckill(int id)
         {
             // 1、秒杀活动

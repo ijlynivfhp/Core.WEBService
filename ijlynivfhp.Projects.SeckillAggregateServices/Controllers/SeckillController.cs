@@ -75,9 +75,9 @@ namespace ijlynivfhp.Projects.SeckillAggregateServices.Controllers
 
             // 2、对于秒杀时间进行过滤(2020/08/11 14:00  16:00) (2020/08/11 18:00) (2020/08/12 14:00)
             string data = DateTime.Now.ToShortDateString();
-            string time = data + DateTime.Now.ToShortTimeString(); // 2020/09/12 21:17
-            seckillTimeModels = seckillTimeModels.Where(s => string.Compare(data, s.SeckillDate, StringComparison.OrdinalIgnoreCase) <= 0
-                                    && string.Compare(time, s.SeckillDate + s.SeckillEndtime, StringComparison.OrdinalIgnoreCase) < 0).ToList();
+            string time = data +" "+ DateTime.Now.ToShortTimeString(); // 2020/09/12 21:17
+            //seckillTimeModels = seckillTimeModels.Where(s => string.Compare(data, s.SeckillDate, StringComparison.OrdinalIgnoreCase) <= 0
+            //                        && string.Compare(time, s.SeckillDate + s.SeckillEndtime, StringComparison.OrdinalIgnoreCase) < 0).ToList();
             return seckillTimeModels;
         }
 

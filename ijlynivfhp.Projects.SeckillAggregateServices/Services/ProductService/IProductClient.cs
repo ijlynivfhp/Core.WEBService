@@ -8,7 +8,7 @@ namespace ijlynivfhp.Projects.SeckillAggregateServices.Services
     /// <summary>
     /// 商品微服务客户端
     /// </summary>
-    [MicroClient("http", "ProductServices")]
+    [MicroClient("https", "ProductServices")]
     public interface IProductClient
     {
         /// <summary>

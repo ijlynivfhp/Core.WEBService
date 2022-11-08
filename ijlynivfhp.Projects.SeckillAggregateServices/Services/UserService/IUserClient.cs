@@ -7,7 +7,7 @@ namespace ijlynivfhp.Projects.SeckillAggregateServices.Services
     /// <summary>
     /// 用户微服务客户端
     /// </summary>
-    [MicroClient("http", "UserServices")]
+    [MicroClient("https", "UserServices")]
     public interface IUserClient
     {
         /// <summary>

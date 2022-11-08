@@ -42,8 +42,8 @@ namespace ijlynivfhp.Projects.SeckillAggregateServices
                 {
                     mo.serviceDiscoveryOptions = sdo =>
                     // { sdo.DiscoveryAddress = "http://172.18.0.2:8500"; };
-                    //{ sdo.DiscoveryAddress = "http://localhost:8500"; };
-                    { sdo.DiscoveryAddress = "http://10.96.0.2:8500"; };// k8s注册中心
+                    { sdo.DiscoveryAddress = "http://localhost:8500"; };
+                    //{ sdo.DiscoveryAddress = "http://10.96.0.2:8500"; };// k8s注册中心
                 };
             });
 
@@ -91,9 +91,9 @@ namespace ijlynivfhp.Projects.SeckillAggregateServices
             // 6、使用内存缓存
              services.AddMemoryCache();
             // 6.1 使用redis分布式缓存
-           // services.AddDistributedRedisCache("127.0.0.1:6379, password =, defaultDatabase = 2, poolsize = 50, connectTimeout = 5000, syncTimeout = 10000, prefix = seckill_stock_:");
+            services.AddDistributedRedisCache("127.0.0.1:6379, password =, defaultDatabase = 2, poolsize = 50, connectTimeout = 5000, syncTimeout = 10000, prefix = seckill_stock_:");
             //services.AddDistributedRedisCache("172.18.0.19:6379, password =, defaultDatabase = 2, poolsize = 50, connectTimeout = 5000, syncTimeout = 10000, prefix = seckill_stock_");
-            services.AddDistributedRedisCache("10.96.0.6:6379, password =, defaultDatabase = 2, poolsize = 50, connectTimeout = 5000, syncTimeout = 10000, prefix = seckill_stock_");// k8s redis
+            //services.AddDistributedRedisCache("10.96.0.6:6379, password =, defaultDatabase = 2, poolsize = 50, connectTimeout = 5000, syncTimeout = 10000, prefix = seckill_stock_");// k8s redis
 
             // 7、使用秒杀库存缓存
             // services.AddSeckillStockCache();
@@ -112,11 +112,11 @@ namespace ijlynivfhp.Projects.SeckillAggregateServices
                 // 8.4 使用RabbitMQ进行事件中心处理
                 x.UseRabbitMQ(rb =>
                 {
-                    // rb.HostName = "localhost"; // 本地主机
+                    rb.HostName = "localhost"; // 本地主机
                     //rb.HostName = "172.18.0.3";// 远程主机
-                    rb.HostName = "10.96.0.3";// K8s集群service
-                    rb.UserName = "guest";
-                    rb.Password = "guest";
+                    //rb.HostName = "10.96.0.3";// K8s集群service
+                    rb.UserName = "sa";
+                    rb.Password = "123456";
                     rb.Port = 5672;
                     rb.VirtualHost = "/";
                 });

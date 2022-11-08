@@ -48,7 +48,7 @@ namespace ijlynivfhp.Projects.SeckillAggregateServices.Controllers
             // 6、对于token进行认证(也就是身份认证)
 
             // 1、获取IdentityServer接口文档
-            string userUrl = dynamicMiddleUrl.GetMiddleUrl("http", "UserServices");
+            string userUrl = dynamicMiddleUrl.GetMiddleUrl("https", "UserServices");
             DiscoveryDocumentResponse discoveryDocument = httpClient.GetDiscoveryDocumentAsync(userUrl).Result;
             if (discoveryDocument.IsError)
             {

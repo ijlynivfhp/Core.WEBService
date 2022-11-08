@@ -29,7 +29,7 @@ namespace ijlynivfhp.Projects.Cores.Proxy
             IDictionary<Type, object> keyValuePairs = new Dictionary<Type, object>();
             foreach (var type in types)
             {
-                object value = microClientProxyFactory.CreateMicroClientProxy(type);
+                object value = microClientProxyFactory.CreateMicroClientProxy (type);
                 keyValuePairs.Add(type, value);
             }
             return keyValuePairs;
